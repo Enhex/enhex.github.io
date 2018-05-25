@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Using Conan with Premake"
-description: A sane way to manage C++ projects.
-permalink: /:title
+description: A guide for adding a Premake generator to Conan and using it.
 share: true
 tags:
  - C++
