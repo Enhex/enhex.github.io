@@ -10,13 +10,13 @@ tags:
 ---
 
 # Why Premake?
-Conan defaults to CMake, but CMake is bad, because:
+[Conan](https://conan.io/) defaults to CMake, but CMake is bad, because:
 - **Awful** domain specific scripting language that sends me on *long* quests for syntax examples, even for the most basic & trivial things, since the documentation is quite bad and ambiguous with its syntax templates, and doesnt provide code examples.
 Since it's a DSL learning it is completely useless for anything but writing CMake scripts, so it's quite a waste of time.
 In addition it's ugly and looks like a bunch of macro hacks (which it probably evolved from).
 - It's slow and can take several seconds to generate a project, or even **minutes** in projects that heavily use CMake.
 
-Premake doesn't have these downsides:
+[Premake](https://github.com/premake/premake-core) doesn't have these downsides:
 - Premake uses Lua, which is *simple* and *fast* general purpose scripting language, with proper documentation and rich ecosystem.
 Maybe you [already know Lua](https://en.wikipedia.org/wiki/List_of_applications_using_Lua), so you don't need to spend time & effort learning a new language.
 - Premake is fast, and generates a project in few milliseconds.
