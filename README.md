@@ -17,34 +17,28 @@ This theme was created on top of Jekyll Clean theme by Scotte, you can view the 
 This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
 sidebar.
 
-Optionally you can use:
+Some cool features:
 
  - [Disqus](http://disqus.com) as a comments system;
  - [Google Analytics](http://www.google.com/analytics/);
  - [Yandex Metrica](http://metrica.yandex.com);
  - Blog tags - check the section below;
- - Share buttons.
+ - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
+ - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
+ - Bootstrap 4 and FontAwesome 5!
+ - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
 
 All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
 Installation
 ============
 
-If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
+If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
 If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
 
 After you will have to set up your `_config.yml`
 
-Gem Installation
-================
-
-Follow the instructions on the Jekyll [site](https://jekyllrb.com/docs/themes/). Then copy the following files from this repository:
-
- -_config.yml
- - about.md
- - admin.md
- - archive.html
- - feed.xml 
+I tried to setup gem installation, but it doesn't work well as theme has many customizations. So I wouldn't recommend to use gem.
  
 Blog tags
 =========
