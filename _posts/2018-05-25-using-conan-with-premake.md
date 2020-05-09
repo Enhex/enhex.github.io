@@ -9,6 +9,9 @@ tags:
  - Premake
 ---
 
+# Update:
+Since I made this post [Premake has been officially added to Conan](https://docs.conan.io/en/latest/integrations/build_system/premake.html).
+
 # Why Premake?
 [Conan](https://conan.io/) defaults to CMake, but CMake is bad, because:
 - **Awful** domain specific scripting language that sends me on *long* quests for syntax examples, even for the most basic & trivial things, since the documentation is quite bad and ambiguous with its syntax templates, and doesnt provide code examples.
