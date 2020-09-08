@@ -38,7 +38,7 @@ make sure you have enough RAM for big projects.
 # Code
 
 - use forward declarations to move `#include`s from headers to `.cpp` files.
-This can help elimiinate dependencies and reduce incremental build time.
+This can help eliminate dependencies and reduce incremental build time.
 
 
 # Hardware
